@@ -1,0 +1,21 @@
+<div class="clock">
+    <div class="hour">
+      <div class="hr" [style.transform]="'rotateZ(' + hrRotation + 'deg)'"></div>
+    </div>
+  
+    <div class="min">
+      <div class="mn" [style.transform]="'rotateZ(' + mnRotation + 'deg)'"></div>
+    </div>
+  
+    <div class="sec">
+      <div class="sc" [style.transform]="'rotateZ(' + scRotation + 'deg)'"></div>
+    </div>
+  </div>
+  
+  <div id="digitalClock">
+    <div id="hours">{{ digitalHours }}</div>
+    <div id="minutes">{{ digitalMinutes }}</div>
+    <div id="seconds">{{ digitalSeconds }}</div>
+    <div id="ampm">{{ digitalAmPm }}</div>
+  </div>
+  

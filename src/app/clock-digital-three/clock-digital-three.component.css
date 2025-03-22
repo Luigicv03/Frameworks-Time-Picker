@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.reloj-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem; 
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.reloj {
+  font-family: 'Share Tech Mono', monospace;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+  background-color: black;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.tiempo {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+
+.fecha {
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
